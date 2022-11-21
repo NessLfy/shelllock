@@ -1,0 +1,33 @@
+B2	->	->	->	PositiveC
+C2	->	A3	->	SD
+D2	->	A4	->	IL17
+E2 	->	A5	->	16s03
+F2 	->	A6	->	16s04
+G2 	->	A7	->	DnaJ07
+H2 	->	A8	->	DnaJ09
+I2 	->	A9	->	(maybe false) DnaJ10
+J2 	->	A10	->	(maybe false) ToxR
+K2 	->	B1	->	ToxRm1
+L2 	->	B2	->	ToxRm2
+M2 	->	B3	->	ToxRm4
+N2 	->	B4	->	ToxRm6
+O2 	->	B5	->	ToxRm8
+B5 	->	B6	->	ToxRm10
+C5 	->	B7	->	Synthetic DNA
+D5 	->	B8	->	Synthetic DNA full
+E5 	->	B9	->	40s
+F5 	->	B10	->	EF1a
+G5 	->	C1	->	Trigopus
+H5 	->	C2	->	60s
+I5 	->	C3	->	flaA
+J5 	->	A10	->	(100nM) ToxR
+K5 	->	A10	->	(10nM) ToxR
+L5 	->	A10	->	(1nM) ToxR
+M5 	->	A7	->	(100nM) DnaJ07
+N5 	->	A7	->	(10nM) DnaJ07
+O5 	->	A7	->	(1nM) DnaJ07
+B8 	->	C1	->	(100nM) Trigopus
+C8 	->	C1	->	(10nM) Trigopus
+D8 	->	C1	->	(1nM) Trigopus
+E8 	->	A10	->	(100µM) ToxR
+G8 	->	->	->	NC 

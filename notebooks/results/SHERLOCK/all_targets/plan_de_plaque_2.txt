@@ -1,0 +1,34 @@
+B2	->	PositiveC
+B5 	->	ToxRm10
+B8 	->	100nM_Trigopus
+C2	->	SD
+C5 	->	Synthetic DNA
+C8 	->	10nM_Trigopus
+D2	->	IL17
+D5 	->	Synthetic DNA full
+D8 	->	1nM_Trigopus
+E2 	->	16s03
+E5 	->	40s
+E8 	->	100µM_ToxR
+F2 	->	16s04
+F5 	->	EF1a
+G2 	->	DnaJ07
+G5 	->	Tigriopus
+G8 	->	NC 
+H2 	->	DnaJ09
+H5 	->	60s
+I2 	->	DnaJ10
+I5 	->	flaA
+J2 	->	ToxR
+J5 	->	100nM_ToxR
+K2 	->	ToxRm1
+K5 	->	10nM_ToxR
+L2 	->	ToxRm2
+L5 	->	1nM_ToxR
+M2 	->	ToxRm4
+M5 	->	100nM_DnaJ07
+N2 	->	ToxRm6
+N5 	->	10nM_DnaJ07
+O2 	->	ToxRm8
+O5 	->	1nM_DnaJ07
+
