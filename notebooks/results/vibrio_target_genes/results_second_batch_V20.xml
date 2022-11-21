@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_45961</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>28</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_45961</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>28</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1858882544|gb|CP053794.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain W10G chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP053794</Hit_accession>
+  <Hit_len>3033188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1858878921|gb|CP053796.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain SL4G chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP053796</Hit_accession>
+  <Hit_len>2954462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1858875361|gb|CP053798.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain SL5Y chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP053798</Hit_accession>
+  <Hit_len>2947299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1858871712|gb|CP053800.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain SO5Y chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP053800</Hit_accession>
+  <Hit_len>2947270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1858867049|gb|CP053802.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain L6G chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP053802</Hit_accession>
+  <Hit_len>2829740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1858862310|gb|CP053804.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain SL6Y chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP053804</Hit_accession>
+  <Hit_len>2900064</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2221334104|gb|CP064379.1|</Hit_id>
+  <Hit_def>Vibrio furnissii strain PartQ-Vfurnissii-RM8376 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP064379</Hit_accession>
+  <Hit_len>3275680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1733281</Hsp_hit-from>
+      <Hsp_hit-to>1733254</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2217779589|dbj|AP023385.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O96 RIMD 2214334 DNA, chromosome 1, complete genome</Hit_def>
+  <Hit_accession>AP023385</Hit_accession>
+  <Hit_len>2887793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>11188</Hsp_hit-from>
+      <Hsp_hit-to>11215</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2217775976|dbj|AP023383.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O77 RIMD 2214315 DNA, chromosome 1, complete genome</Hit_def>
+  <Hit_accession>AP023383</Hit_accession>
+  <Hit_len>3064657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>11188</Hsp_hit-from>
+      <Hsp_hit-to>11215</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2217771038|dbj|AP023381.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O63 RIMD 2214301 DNA, chromosome 1, complete genome</Hit_def>
+  <Hit_accession>AP023381</Hit_accession>
+  <Hit_len>2869733</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>28929</Hsp_hit-from>
+      <Hsp_hit-to>28956</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|2217766341|dbj|AP023379.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O51 RIMD 2214289 DNA, chromosome 1, complete genome</Hit_def>
+  <Hit_accession>AP023379</Hit_accession>
+  <Hit_len>2967527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>11185</Hsp_hit-from>
+      <Hsp_hit-to>11212</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|2217761885|dbj|AP023377.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O5 RIMD 2214243 DNA, chromosome 1, complete genome</Hit_def>
+  <Hit_accession>AP023377</Hit_accession>
+  <Hit_len>2952352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>11189</Hsp_hit-from>
+      <Hsp_hit-to>11216</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2217758102|dbj|AP023375.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O45 RIMD 2214283 DNA, chromosome 1, complete genome</Hit_def>
+  <Hit_accession>AP023375</Hit_accession>
+  <Hit_len>3021501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>65567</Hsp_hit-from>
+      <Hsp_hit-to>65594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2217752797|dbj|AP023373.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O207 RIMD 2214445 DNA, chromosome 1, complete genome</Hit_def>
+  <Hit_accession>AP023373</Hit_accession>
+  <Hit_len>2868058</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>11189</Hsp_hit-from>
+      <Hsp_hit-to>11216</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|2217747447|dbj|AP023371.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O17 RIMD 2214255 DNA, chromosome 1, complete genome</Hit_def>
+  <Hit_accession>AP023371</Hit_accession>
+  <Hit_len>2939341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>11188</Hsp_hit-from>
+      <Hsp_hit-to>11215</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2217743904|dbj|AP023369.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O162 RIMD 2214400 DNA, chromosome 1, complete genome</Hit_def>
+  <Hit_accession>AP023369</Hit_accession>
+  <Hit_len>2966062</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>11187</Hsp_hit-from>
+      <Hsp_hit-to>11214</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|2217738609|dbj|AP023331.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O102 RIMD 2214340 DNA, chromosome 1, complete genome</Hit_def>
+  <Hit_accession>AP023331</Hit_accession>
+  <Hit_len>2874693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>30769</Hsp_hit-from>
+      <Hsp_hit-to>30796</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2215582720|dbj|AP024967.1|</Hit_id>
+  <Hit_def>Vibrio cholerae V130003 DNA, chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>AP024967</Hit_accession>
+  <Hit_len>3070648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3808</Hsp_hit-from>
+      <Hsp_hit-to>3835</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2210577337|gb|CP093426.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O1 biovar El Tor strain Inaba chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP093426</Hit_accession>
+  <Hit_len>2905436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2872095</Hsp_hit-from>
+      <Hsp_hit-to>2872068</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|2176109310|gb|CP090387.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain GXFL1-4 chromosome 2, complete sequence</Hit_def>
+  <Hit_accession>CP090387</Hit_accession>
+  <Hit_len>3079090</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3778</Hsp_hit-from>
+      <Hsp_hit-to>3805</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2176086866|gb|CP090399.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain PanChol chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP090399</Hit_accession>
+  <Hit_len>2994890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2168781201|gb|CP089603.1|</Hit_id>
+  <Hit_def>Vibrio furnissii strain VFN3 chromosome I, complete sequence</Hit_def>
+  <Hit_accession>CP089603</Hit_accession>
+  <Hit_len>3404211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3772</Hsp_hit-from>
+      <Hsp_hit-to>3799</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|2077954350|gb|CP077197.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain PS4 chromosome I, complete sequence</Hit_def>
+  <Hit_accession>CP077197</Hit_accession>
+  <Hit_len>2784636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2077325866|gb|CP080462.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain ICDC-VC702 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP080462</Hit_accession>
+  <Hit_len>3145023</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3779</Hsp_hit-from>
+      <Hsp_hit-to>3806</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|2077325863|gb|CP080465.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain ICDC-VC3741 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP080465</Hit_accession>
+  <Hit_len>3007795</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|2069588885|gb|CP078727.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain Colony11 chromosome 1</Hit_def>
+  <Hit_accession>CP078727</Hit_accession>
+  <Hit_len>3149584</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>521518</Hsp_hit-from>
+      <Hsp_hit-to>521545</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|2069588881|gb|CP078725.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain Colony605 chromosome 1</Hit_def>
+  <Hit_accession>CP078725</Hit_accession>
+  <Hit_len>3149584</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>521518</Hsp_hit-from>
+      <Hsp_hit-to>521545</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|2069588879|gb|CP078719.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain Colony98 chromosome 1</Hit_def>
+  <Hit_accession>CP078719</Hit_accession>
+  <Hit_len>3149584</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>521518</Hsp_hit-from>
+      <Hsp_hit-to>521545</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2069588877|gb|CP078723.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain Colony268 chromosome 1</Hit_def>
+  <Hit_accession>CP078723</Hit_accession>
+  <Hit_len>3149584</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>521518</Hsp_hit-from>
+      <Hsp_hit-to>521545</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|2067522135|gb|CP076643.1|</Hit_id>
+  <Hit_def>Vibrio sp. OG9-811 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP076643</Hit_accession>
+  <Hit_len>3397178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2722122</Hsp_hit-from>
+      <Hsp_hit-to>2722095</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|2058661182|gb|CP077426.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain Y4 chromosome II, complete sequence</Hit_def>
+  <Hit_accession>CP077426</Hit_accession>
+  <Hit_len>3256425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3778</Hsp_hit-from>
+      <Hsp_hit-to>3805</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2046371358|dbj|AP024555.1|</Hit_id>
+  <Hit_def>Vibrio cholerae IDH-03506 DNA, chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>AP024555</Hit_accession>
+  <Hit_len>3026055</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>716850</Hsp_hit-from>
+      <Hsp_hit-to>716877</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|2046371356|dbj|AP024553.1|</Hit_id>
+  <Hit_def>Vibrio cholerae IDH-03329 DNA, chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>AP024553</Hit_accession>
+  <Hit_len>3047641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>38698</Hsp_hit-from>
+      <Hsp_hit-to>38725</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|2046371354|dbj|AP024551.1|</Hit_id>
+  <Hit_def>Vibrio cholerae IDH-02387 DNA, chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>AP024551</Hit_accession>
+  <Hit_len>3117466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2489341</Hsp_hit-from>
+      <Hsp_hit-to>2489314</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|2046371350|dbj|AP024547.1|</Hit_id>
+  <Hit_def>Vibrio cholerae BCH-01536 DNA, chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>AP024547</Hit_accession>
+  <Hit_len>3040126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>293905</Hsp_hit-from>
+      <Hsp_hit-to>293932</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|2034570724|gb|CP047305.1|</Hit_id>
+  <Hit_def>Vibrio cholerae O37 strain ATCC 25872 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP047305</Hit_accession>
+  <Hit_len>2945491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|2029774428|gb|CP073273.1|</Hit_id>
+  <Hit_def>Vibrio fluvialis strain 19-VB00936 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP073273</Hit_accession>
+  <Hit_len>3237604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3772</Hsp_hit-from>
+      <Hsp_hit-to>3799</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|2025712997|gb|CP072849.1|</Hit_id>
+  <Hit_def>Vibrio cholerae MO10 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP072849</Hit_accession>
+  <Hit_len>3035563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|2025708070|gb|CP072847.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain A1552 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP072847</Hit_accession>
+  <Hit_len>3016351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|2019148519|gb|CP072005.1|</Hit_id>
+  <Hit_def>Vibrio fluvialis strain Colony79 chromosome 1</Hit_def>
+  <Hit_accession>CP072005</Hit_accession>
+  <Hit_len>3171556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3007318</Hsp_hit-from>
+      <Hsp_hit-to>3007291</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|2019140445|gb|CP072007.1|</Hit_id>
+  <Hit_def>Vibrio fluvialis strain Colony36 chromosome 1</Hit_def>
+  <Hit_accession>CP072007</Hit_accession>
+  <Hit_len>3171543</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3007318</Hsp_hit-from>
+      <Hsp_hit-to>3007291</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|2019136473|gb|CP072009.1|</Hit_id>
+  <Hit_def>Vibrio fluvialis strain Colony42 chromosome 1</Hit_def>
+  <Hit_accession>CP072009</Hit_accession>
+  <Hit_len>3171553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3007318</Hsp_hit-from>
+      <Hsp_hit-to>3007291</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2019133056|gb|CP072001.1|</Hit_id>
+  <Hit_def>Vibrio furnissii strain Colony85 chromosome 1</Hit_def>
+  <Hit_accession>CP072001</Hit_accession>
+  <Hit_len>3371444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1362057</Hsp_hit-from>
+      <Hsp_hit-to>1362084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|2019129022|gb|CP072003.1|</Hit_id>
+  <Hit_def>Vibrio furnissii strain Colony82 chromosome 1</Hit_def>
+  <Hit_accession>CP072003</Hit_accession>
+  <Hit_len>3371444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1362057</Hsp_hit-from>
+      <Hsp_hit-to>1362084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1993533143|gb|CP070474.1|</Hit_id>
+  <Hit_def>Vibrio furnissii strain Colony603 chromosome 1</Hit_def>
+  <Hit_accession>CP070474</Hit_accession>
+  <Hit_len>3171305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3007318</Hsp_hit-from>
+      <Hsp_hit-to>3007291</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1932138598|gb|CP064350.1|</Hit_id>
+  <Hit_def>Vibrio cholerae C6706 chromosome I, complete sequence</Hit_def>
+  <Hit_accession>CP064350</Hit_accession>
+  <Hit_len>3015051</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2808580</Hsp_hit-from>
+      <Hsp_hit-to>2808553</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1927712664|gb|CP063420.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain VC_hf7 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP063420</Hit_accession>
+  <Hit_len>3040054</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3777</Hsp_hit-from>
+      <Hsp_hit-to>3804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1890978190|gb|CP060094.1|</Hit_id>
+  <Hit_def>Vibrio cholerae MO10 chromosome 1</Hit_def>
+  <Hit_accession>CP060094</Hit_accession>
+  <Hit_len>3102462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>307164</Hsp_hit-from>
+      <Hsp_hit-to>307191</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1890631614|gb|CP060047.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain 2497-87 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP060047</Hit_accession>
+  <Hit_len>3260230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1759167</Hsp_hit-from>
+      <Hsp_hit-to>1759194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1877738959|gb|CP040172.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain VC1374 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP040172</Hit_accession>
+  <Hit_len>3039067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3750</Hsp_hit-from>
+      <Hsp_hit-to>3777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACACTGATGATGACACCGGTCTGCACCA</Hsp_qseq>
+      <Hsp_hseq>ACACTGATGATGGCACCGGTCTGCACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83793497</Statistics_db-num>
+      <Statistics_db-len>274927826</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

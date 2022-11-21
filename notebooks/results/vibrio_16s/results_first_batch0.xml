@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_17907</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>28</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_17907</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>28</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2040312494|emb|OU015578.1|</Hit_id>
+  <Hit_def>Coccinella septempunctata genome assembly, chromosome: 6</Hit_def>
+  <Hit_accession>OU015578</Hit_accession>
+  <Hit_len>34462492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.09431</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>25</Hsp_query-to>
+      <Hsp_hit-from>26586703</Hsp_hit-from>
+      <Hsp_hit-to>26586679</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CCATTGTAAAGTTTTCGAACGAAAA</Hsp_qseq>
+      <Hsp_hseq>CCATTTTAAAGTTTTCGAACGAAAA</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1963937788|emb|LR990590.1|</Hit_id>
+  <Hit_def>Pieris rapae genome assembly, chromosome: 8</Hit_def>
+  <Hit_accession>LR990590</Hit_accession>
+  <Hit_len>10995054</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.09431</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>10168874</Hsp_hit-from>
+      <Hsp_hit-to>10168898</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>TTGTAAAGTTTTCGAACGAAAACTT</Hsp_qseq>
+      <Hsp_hseq>TTGTAAAGTTTTCGAACAAAAACTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1111251453|gb|CP013074.1|</Hit_id>
+  <Hit_def>Dehalococcoides mccartyi strain CG3 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP013074</Hit_accession>
+  <Hit_len>1521287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>1.09431</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>10769</Hsp_hit-from>
+      <Hsp_hit-to>10790</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GTAAAGTTTTCGAACGAAAACT</Hsp_qseq>
+      <Hsp_hseq>GTAAAGTTTTCGAACGAAAACT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|757803385|dbj|AP014722.1|</Hit_id>
+  <Hit_def>Dehalococcoides sp. UCH007 DNA, complete genome</Hit_def>
+  <Hit_accession>AP014722</Hit_accession>
+  <Hit_len>1473548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>1.09431</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>1372217</Hsp_hit-from>
+      <Hsp_hit-to>1372238</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GTAAAGTTTTCGAACGAAAACT</Hsp_qseq>
+      <Hsp_hseq>GTAAAGTTTTCGAACGAAAACT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2183015883|gb|CP080651.2|</Hit_id>
+  <Hit_def>Dehalococcoides mccartyi strain CWV2 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP080651</Hit_accession>
+  <Hit_len>1439615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>1.09431</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>1336553</Hsp_hit-from>
+      <Hsp_hit-to>1336574</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GTAAAGTTTTCGAACGAAAACT</Hsp_qseq>
+      <Hsp_hseq>GTAAAGTTTTCGAACGAAAACT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|670941901|gb|CP006949.1|</Hit_id>
+  <Hit_def>Dehalococcoides mccartyi CG1, complete genome</Hit_def>
+  <Hit_accession>CP006949</Hit_accession>
+  <Hit_len>1486678</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>1.09431</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>1385355</Hsp_hit-from>
+      <Hsp_hit-to>1385376</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GTAAAGTTTTCGAACGAAAACT</Hsp_qseq>
+      <Hsp_hseq>GTAAAGTTTTCGAACGAAAACT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|270153343|gb|CP001827.1|</Hit_id>
+  <Hit_def>Dehalococcoides mccartyi VS, complete genome</Hit_def>
+  <Hit_accession>CP001827</Hit_accession>
+  <Hit_len>1413462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.9604</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>1.09431</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>1306371</Hsp_hit-from>
+      <Hsp_hit-to>1306392</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GTAAAGTTTTCGAACGAAAACT</Hsp_qseq>
+      <Hsp_hseq>GTAAAGTTTTCGAACGAAAACT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2211172048|emb|OW052214.1|</Hit_id>
+  <Hit_def>Ecliptopera silaceata genome assembly, chromosome: 24</Hit_def>
+  <Hit_accession>OW052214</Hit_accession>
+  <Hit_len>7928850</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0587</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>3.81952</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>5339585</Hsp_hit-from>
+      <Hsp_hit-to>5339562</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>ATTGTAAAGTTTTCGAACGAAAAC</Hsp_qseq>
+      <Hsp_hseq>ATTGAAAAGTTTTCGAACGAAAAC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2111372962|emb|OU779866.1|</Hit_id>
+  <Hit_def>Orgyia antiqua genome assembly, chromosome: 5</Hit_def>
+  <Hit_accession>OU779866</Hit_accession>
+  <Hit_len>36178633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.81952</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>34825188</Hsp_hit-from>
+      <Hsp_hit-to>34825163</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>ATTGTAAAGTTTTCGAACGAAAACTT</Hsp_qseq>
+      <Hsp_hseq>ATTTTAAAGTTTCCGAACGAAAACTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2063799364|emb|OU342886.1|</Hit_id>
+  <Hit_def>Cydia splendana genome assembly, chromosome: 15</Hit_def>
+  <Hit_accession>OU342886</Hit_accession>
+  <Hit_len>19691877</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.81952</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>24</Hsp_query-to>
+      <Hsp_hit-from>12498987</Hsp_hit-from>
+      <Hsp_hit-to>12499007</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>TTGTAAAGTTTTCGAACGAAA</Hsp_qseq>
+      <Hsp_hseq>TTGTAAAGTTTTCGAACGAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83555989</Statistics_db-num>
+      <Statistics_db-len>835312678</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

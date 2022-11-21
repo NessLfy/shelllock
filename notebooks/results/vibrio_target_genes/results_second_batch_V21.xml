@@ -1,0 +1,1414 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_48221</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>28</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_48221</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>28</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1345471481|gb|CP014036.1|</Hit_id>
+  <Hit_def>Vibrio diabolicus strain FDAARGOS_105 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP014036</Hit_accession>
+  <Hit_len>3393494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>491639</Hsp_hit-from>
+      <Hsp_hit-to>491612</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTATTGATGGAAGAAACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2127010576|gb|CP085843.1|</Hit_id>
+  <Hit_def>Vibrio diabolicus strain NV27 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP085843</Hit_accession>
+  <Hit_len>3238151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2756553</Hsp_hit-from>
+      <Hsp_hit-to>2756526</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTATTGATGGAAGAAACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|350999931|gb|JF930483.1|</Hit_id>
+  <Hit_def>Vibrio alginolyticus strain AK 1296-A2-1 actin-like cytoskeleton protein (mreB) gene, partial cds</Hit_def>
+  <Hit_accession>JF930483</Hit_accession>
+  <Hit_len>931</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>867</Hsp_hit-from>
+      <Hsp_hit-to>894</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTATTGATGGAAGAAACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|350999927|gb|JF930481.1|</Hit_id>
+  <Hit_def>Vibrio alginolyticus strain LMG 11213 actin-like cytoskeleton protein (mreB) gene, partial cds</Hit_def>
+  <Hit_accession>JF930481</Hit_accession>
+  <Hit_len>931</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>867</Hsp_hit-from>
+      <Hsp_hit-to>894</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTATTGATGGAAGAAACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|734850947|gb|KM884854.1|</Hit_id>
+  <Hit_def>Vibrio sp. S7-71 MreB (mreB) gene, partial cds</Hit_def>
+  <Hit_accession>KM884854</Hit_accession>
+  <Hit_len>915</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6655</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>856</Hsp_hit-from>
+      <Hsp_hit-to>881</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTATTGATGGAAGAAACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1850188584|gb|CP054043.1|</Hit_id>
+  <Hit_def>Yersinia mollaretii ATCC 43969 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP054043</Hit_accession>
+  <Hit_len>4603534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>741146</Hsp_hit-from>
+      <Hsp_hit-to>741119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGCCTACTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||| ||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1772817214|gb|CP045699.1|</Hit_id>
+  <Hit_def>Vibrio algicola strain SM1977 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP045699</Hit_accession>
+  <Hit_len>2518765</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>455320</Hsp_hit-from>
+      <Hsp_hit-to>455347</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTTTATTGATGGAAGAAACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1769903677|gb|CP045216.1|</Hit_id>
+  <Hit_def>Pantoea dispersa strain BJQ0007 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP045216</Hit_accession>
+  <Hit_len>4325134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>379148</Hsp_hit-from>
+      <Hsp_hit-to>379175</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1736642656|gb|CP043557.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain RFB05 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP043557</Hit_accession>
+  <Hit_len>3162181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>687074</Hsp_hit-from>
+      <Hsp_hit-to>687047</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1721708653|gb|CP034363.1|</Hit_id>
+  <Hit_def>Pantoea sp. CCBC3-3-1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP034363</Hit_accession>
+  <Hit_len>5008525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4471554</Hsp_hit-from>
+      <Hsp_hit-to>4471527</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1539207086|emb|LR133996.1|</Hit_id>
+  <Hit_def>Shimwellia blattae strain NCTC10965 genome assembly, chromosome: 1</Hit_def>
+  <Hit_accession>LR133996</Hit_accession>
+  <Hit_len>4154215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>352779</Hsp_hit-from>
+      <Hsp_hit-to>352806</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTTTACTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||| || |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1539559497|emb|LR134215.1|</Hit_id>
+  <Hit_def>Shimwellia blattae strain NCTC12127 genome assembly, chromosome: 1</Hit_def>
+  <Hit_accession>LR134215</Hit_accession>
+  <Hit_len>4152791</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>352771</Hsp_hit-from>
+      <Hsp_hit-to>352798</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTTTACTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||| || |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1345498274|gb|CP014094.1|</Hit_id>
+  <Hit_def>Vibrio diabolicus strain FDAARGOS_96 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP014094</Hit_accession>
+  <Hit_len>3274995</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2657994</Hsp_hit-from>
+      <Hsp_hit-to>2657967</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTATTGATGGAAGAAACTGGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1253307583|gb|CP023706.1|</Hit_id>
+  <Hit_def>Edwardsiella tarda strain KC-Pc-HB1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP023706</Hit_accession>
+  <Hit_len>3638764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2108631</Hsp_hit-from>
+      <Hsp_hit-to>2108658</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1215212406|gb|CP022353.1|</Hit_id>
+  <Hit_def>Vibrio sp. 2521-89 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP022353</Hit_accession>
+  <Hit_len>3017468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2416625</Hsp_hit-from>
+      <Hsp_hit-to>2416598</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2193881961|gb|CP074350.1|</Hit_id>
+  <Hit_def>Pantoea dispersa strain YSD_J2 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP074350</Hit_accession>
+  <Hit_len>4291063</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>387070</Hsp_hit-from>
+      <Hsp_hit-to>387097</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|2111782107|gb|CP084432.1|</Hit_id>
+  <Hit_def>Edwardsiella tarda strain AL98-87 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP084432</Hit_accession>
+  <Hit_len>3650302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>363497</Hsp_hit-from>
+      <Hsp_hit-to>363524</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2111747579|gb|CP084517.1|</Hit_id>
+  <Hit_def>Edwardsiella tarda strain RE-04 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP084517</Hit_accession>
+  <Hit_len>3814903</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>357437</Hsp_hit-from>
+      <Hsp_hit-to>357464</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2111735035|gb|CP084419.1|</Hit_id>
+  <Hit_def>Edwardsiella tarda strain LADL99-302 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP084419</Hit_accession>
+  <Hit_len>3637862</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>362866</Hsp_hit-from>
+      <Hsp_hit-to>362893</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|2111727006|gb|CP084510.1|</Hit_id>
+  <Hit_def>Edwardsiella tarda strain LADL88-209 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP084510</Hit_accession>
+  <Hit_len>3599509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>362965</Hsp_hit-from>
+      <Hsp_hit-to>362992</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2111722653|gb|CP084506.1|</Hit_id>
+  <Hit_def>Edwardsiella tarda ATCC 15947 = NBRC 105688 strain ATCC 15947 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP084506</Hit_accession>
+  <Hit_len>3640682</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>397903</Hsp_hit-from>
+      <Hsp_hit-to>397930</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2105623563|gb|CP011359.2|</Hit_id>
+  <Hit_def>Edwardsiella tarda strain FL95-01 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP011359</Hit_accession>
+  <Hit_len>3621131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>362766</Hsp_hit-from>
+      <Hsp_hit-to>362793</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|2094601262|gb|CP074147.1|</Hit_id>
+  <Hit_def>Serratia sp. JSRIV001 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP074147</Hit_accession>
+  <Hit_len>5888286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>5303090</Hsp_hit-from>
+      <Hsp_hit-to>5303063</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGCCTACTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||| ||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2094030528|gb|CP082939.1|</Hit_id>
+  <Hit_def>Edwardsiella tarda strain FDAARGOS_1473 chromosome</Hit_def>
+  <Hit_accession>CP082939</Hit_accession>
+  <Hit_len>3651448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3579906</Hsp_hit-from>
+      <Hsp_hit-to>3579879</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|2090335831|gb|CP082341.1|</Hit_id>
+  <Hit_def>Pantoea dispersa strain AHKW2b chromosome, complete genome</Hit_def>
+  <Hit_accession>CP082341</Hit_accession>
+  <Hit_len>4226818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>374359</Hsp_hit-from>
+      <Hsp_hit-to>374386</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|2090325037|gb|CP082346.1|</Hit_id>
+  <Hit_def>Pantoea dispersa strain Lsch chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP082346</Hit_accession>
+  <Hit_len>4014084</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>367059</Hsp_hit-from>
+      <Hsp_hit-to>367086</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|2069581258|gb|CP078560.1|</Hit_id>
+  <Hit_def>Edwardsiella tarda strain Colony53 chromosome</Hit_def>
+  <Hit_accession>CP078560</Hit_accession>
+  <Hit_len>3638764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2108631</Hsp_hit-from>
+      <Hsp_hit-to>2108658</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|549067804|dbj|AP012551.1|</Hit_id>
+  <Hit_def>Plautia stali symbiont DNA, complete genome</Hit_def>
+  <Hit_accession>AP012551</Hit_accession>
+  <Hit_len>4035456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2382329</Hsp_hit-from>
+      <Hsp_hit-to>2382356</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2058456590|gb|CP077262.1|</Hit_id>
+  <Hit_def>Citrobacter pasteurii strain FDAARGOS 1424 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP077262</Hit_accession>
+  <Hit_len>4918872</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>733611</Hsp_hit-from>
+      <Hsp_hit-to>733638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGTTAATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||||| || |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|2050139367|gb|CP076369.1|</Hit_id>
+  <Hit_def>Pantoea dispersa isolate Colony141 chromosome</Hit_def>
+  <Hit_accession>CP076369</Hit_accession>
+  <Hit_len>4325234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>379148</Hsp_hit-from>
+      <Hsp_hit-to>379175</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|2050139305|gb|CP076368.1|</Hit_id>
+  <Hit_def>Pantoea dispersa isolate Colony148 chromosome</Hit_def>
+  <Hit_accession>CP076368</Hit_accession>
+  <Hit_len>4325234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>379148</Hsp_hit-from>
+      <Hsp_hit-to>379175</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2048639712|dbj|AP023032.1|</Hit_id>
+  <Hit_def>Agarivorans albus JCM 21469 DNA, complete genome</Hit_def>
+  <Hit_accession>AP023032</Hit_accession>
+  <Hit_len>4792255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>634310</Hsp_hit-from>
+      <Hsp_hit-to>634337</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGCTTATTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||  ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|386922183|gb|CP001560.1|</Hit_id>
+  <Hit_def>Shimwellia blattae DSM 4481 = NBRC 105725, complete genome</Hit_def>
+  <Hit_accession>CP001560</Hit_accession>
+  <Hit_len>4158725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>352862</Hsp_hit-from>
+      <Hsp_hit-to>352889</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTTTACTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>||||| || |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|350999933|gb|JF930484.1|</Hit_id>
+  <Hit_def>Vibrio alginolyticus strain ATCC 33840 actin-like cytoskeleton protein (mreB) gene, partial cds</Hit_def>
+  <Hit_accession>JF930484</Hit_accession>
+  <Hit_len>931</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>0.321925</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>867</Hsp_hit-from>
+      <Hsp_hit-to>894</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>ATCGTCTATTGATGGAAGAAACTGGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1537757251|gb|CP034433.1|</Hit_id>
+  <Hit_def>Iodobacter ciconiae strain H11R3 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP034433</Hit_accession>
+  <Hit_len>3877377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.8621</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.12363</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>25</Hsp_query-to>
+      <Hsp_hit-from>2666169</Hsp_hit-from>
+      <Hsp_hit-to>2666193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>ATCGTCTATTGATGGAAGAGACCGG</Hsp_qseq>
+      <Hsp_hseq>ATCGCCTATTGATGGAAGAGACCGG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|2257659208|gb|CP084581.1|</Hit_id>
+  <Hit_def>Aeromonas hydrophila strain Ah27 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP084581</Hit_accession>
+  <Hit_len>5102912</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3875914</Hsp_hit-from>
+      <Hsp_hit-to>3875889</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|2241662113|emb|OW849030.1|</Hit_id>
+  <Hit_def>Raoultella ornithinolytica isolate 0 genome assembly, chromosome: main</Hit_def>
+  <Hit_accession>OW849030</Hit_accession>
+  <Hit_len>5527863</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>504013</Hsp_hit-from>
+      <Hsp_hit-to>504038</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGTTGATGGAAGAGACAGGTAT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|2212817737|gb|CP045502.1|</Hit_id>
+  <Hit_def>Aeromonas hydrophila strain Aer_Brac14A chromosome, complete genome</Hit_def>
+  <Hit_accession>CP045502</Hit_accession>
+  <Hit_len>4758202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4383454</Hsp_hit-from>
+      <Hsp_hit-to>4383429</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|2212813518|gb|CP045220.1|</Hit_id>
+  <Hit_def>Aeromonas hydrophila strain Aer_Brac66 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP045220</Hit_accession>
+  <Hit_len>4752336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4377878</Hsp_hit-from>
+      <Hsp_hit-to>4377853</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|2210039500|gb|CP093334.1|</Hit_id>
+  <Hit_def>Raoultella planticola strain A2-F21 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP093334</Hit_accession>
+  <Hit_len>5646881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3599563</Hsp_hit-from>
+      <Hsp_hit-to>3599588</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGTTGATGGAAGAGACAGGTAT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|2209819103|gb|CP093309.1|</Hit_id>
+  <Hit_def>Aeromonas hydrophila strain AC133 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP093309</Hit_accession>
+  <Hit_len>5037528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4661074</Hsp_hit-from>
+      <Hsp_hit-to>4661049</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|2207340254|gb|CP092906.1|</Hit_id>
+  <Hit_def>Aeromonas hydrophila strain LP0103 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP092906</Hit_accession>
+  <Hit_len>5023649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4641052</Hsp_hit-from>
+      <Hsp_hit-to>4641027</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2204309516|gb|CP092709.1|</Hit_id>
+  <Hit_def>Aeromonas hydrophila strain S-P-C-022.01 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP092709</Hit_accession>
+  <Hit_len>4765932</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>414995</Hsp_hit-from>
+      <Hsp_hit-to>415020</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|2204300590|gb|CP092708.1|</Hit_id>
+  <Hit_def>Aeromonas hydrophila strain S-P-C-021.01 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP092708</Hit_accession>
+  <Hit_len>4765924</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>414972</Hsp_hit-from>
+      <Hsp_hit-to>414997</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2197696101|gb|CP055216.1|</Hit_id>
+  <Hit_def>Raoultella ornithinolytica strain STEFF_15 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP055216</Hit_accession>
+  <Hit_len>5678457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>510304</Hsp_hit-from>
+      <Hsp_hit-to>510329</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGTTGATGGAAGAGACAGGTAT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|2179549469|gb|CP054270.1|</Hit_id>
+  <Hit_def>Raoultella ornithinolytica strain OHMEATKPC2_NDM5 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP054270</Hit_accession>
+  <Hit_len>5458249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>435865</Hsp_hit-from>
+      <Hsp_hit-to>435890</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGTTGATGGAAGAGACAGGTAT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|2110998860|gb|CP084352.1|</Hit_id>
+  <Hit_def>Aeromonas hydrophila strain 71339 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP084352</Hit_accession>
+  <Hit_len>4793727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4409448</Hsp_hit-from>
+      <Hsp_hit-to>4409423</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|2107652871|gb|CP084376.1|</Hit_id>
+  <Hit_def>Aeromonas jandaei strain FDAARGOS_1523 chromosome</Hit_def>
+  <Hit_accession>CP084376</Hit_accession>
+  <Hit_len>4545560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3221395</Hsp_hit-from>
+      <Hsp_hit-to>3221370</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGCTGATGGAAGAGACCGGTAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2094565413|gb|CP074182.1|</Hit_id>
+  <Hit_def>Raoultella planticola strain JBIWA001 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP074182</Hit_accession>
+  <Hit_len>5626881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.157</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.92185</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>494537</Hsp_hit-from>
+      <Hsp_hit-to>494562</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CGTCTATTGATGGAAGAGACCGGTAT</Hsp_qseq>
+      <Hsp_hseq>CGTCTGTTGATGGAAGAGACAGGTAT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83793497</Statistics_db-num>
+      <Statistics_db-len>274927826</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

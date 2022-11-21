@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_19225</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>28</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_19225</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>28</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1182626550|gb|KY771177.1|</Hit_id>
+  <Hit_def>Vibrio alginolyticus strain K10M1 uridylate kinase gene, partial cds</Hit_def>
+  <Hit_accession>KY771177</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000621462</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>520</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|586909347|gb|KF899172.1|</Hit_id>
+  <Hit_def>Vibrio sp. Vi_73 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>KF899172</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000621462</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>32</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|586909339|gb|KF899168.1|</Hit_id>
+  <Hit_def>Vibrio sp. Vi_62 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>KF899168</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000621462</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>32</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|586909325|gb|KF899161.1|</Hit_id>
+  <Hit_def>Vibrio sp. Vi_51 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>KF899161</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000621462</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>32</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|586909287|gb|KF899142.1|</Hit_id>
+  <Hit_def>Vibrio sp. Vi_20 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>KF899142</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000621462</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>32</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|386799969|gb|JQ598480.1|</Hit_id>
+  <Hit_def>Vibrio sp. I3K5_063 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799971|gb|JQ598481.1| Vibrio sp. I2Ma1_055 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799973|gb|JQ598482.1| Vibrio sp. I4K2_047 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>JQ598480</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000621462</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|386799863|gb|JQ598422.1|</Hit_id>
+  <Hit_def>Vibrio sp. D14K2_050 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799873|gb|JQ598427.1| Vibrio sp. D14Ma2_079 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799892|gb|JQ598438.1| Vibrio sp. D16K3_065 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799928|gb|JQ598457.1| Vibrio sp. D2K4P_028 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>JQ598422</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000621462</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|386799857|gb|JQ598419.1|</Hit_id>
+  <Hit_def>Vibrio sp. D11K5P_093 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799859|gb|JQ598420.1| Vibrio sp. D12K2_092 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799861|gb|JQ598421.1| Vibrio sp. D12Ma2_052 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799865|gb|JQ598423.1| Vibrio sp. D14K3_071 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799867|gb|JQ598424.1| Vibrio sp. D14K5_066 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799869|gb|JQ598425.1| Vibrio sp. D14K5P_089 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799871|gb|JQ598426.1| Vibrio sp. D14L1_085 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799875|gb|JQ598428.1| Vibrio sp. D14Ma4_076 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799877|gb|JQ598429.1| Vibrio sp. D14Ma5_095 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799879|gb|JQ598430.1| Vibrio sp. D15L2P_088 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799884|gb|JQ598434.1| Vibrio sp. D15Ma2_077 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799886|gb|JQ598435.1| Vibrio sp. D15Ma3_067 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799888|gb|JQ598436.1| Vibrio sp. D15Ma4_074 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799890|gb|JQ598437.1| Vibrio sp. D15Ma5_093 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799894|gb|JQ598439.1| Vibrio sp. D16Ma2_088 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799897|gb|JQ598441.1| Vibrio sp. D1K4P_032 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799899|gb|JQ598442.1| Vibrio sp. D1L1P_046 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799903|gb|JQ598444.1| Vibrio sp. D1L3P_062 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799907|gb|JQ598446.1| Vibrio sp. D1Ma2P_014 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799909|gb|JQ598447.1| Vibrio sp. D1Ma4P_030 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799921|gb|JQ598453.1| Vibrio sp. D21K1P_081 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799923|gb|JQ598454.1| Vibrio sp. D2K1P_011 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799926|gb|JQ598456.1| Vibrio sp. D2K3P_027 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799931|gb|JQ598459.1| Vibrio sp. D3K1P_042 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799933|gb|JQ598460.1| Vibrio sp. D3K4P_073 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799935|gb|JQ598461.1| Vibrio sp. D3K5P_074 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799937|gb|JQ598462.1| Vibrio sp. D4K3P_056 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799939|gb|JQ598463.1| Vibrio sp. D4K5P_072 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799941|gb|JQ598464.1| Vibrio sp. D4L2P_053 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799946|gb|JQ598468.1| Vibrio sp. D5K1P_036 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799948|gb|JQ598469.1| Vibrio sp. D5K3P_052 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799950|gb|JQ598470.1| Vibrio sp. D5Ma1P_034 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799952|gb|JQ598471.1| Vibrio sp. D5Ma2P_049 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799954|gb|JQ598472.1| Vibrio sp. D5Ma3P_050 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799956|gb|JQ598473.1| Vibrio sp. D5Ma4P_065 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799958|gb|JQ598474.1| Vibrio sp. D5Ma5P_066 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799960|gb|JQ598475.1| Vibrio sp. D5Mu3P_017 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799962|gb|JQ598476.1| Vibrio sp. D6Ma3_033 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799964|gb|JQ598477.1| Vibrio sp. D7Ma5_029 uridylate kinase (pyrH) gene, partial cds &gt;gi|386799966|gb|JQ598478.1| Vibrio sp. D8Ma1_005 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>JQ598419</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.000621462</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|386143506|gb|JQ773287.1|</Hit_id>
+  <Hit_def>Vibrio sp. D3K3 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>JQ773287</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.00757096</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGNACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1785416973|gb|CP046832.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain 06-2410 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP046832</Hit_accession>
+  <Hit_len>3225605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>926295</Hsp_hit-from>
+      <Hsp_hit-to>926322</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1785416962|gb|CP046823.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain 06-2455 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP046823</Hit_accession>
+  <Hit_len>3051319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2478801</Hsp_hit-from>
+      <Hsp_hit-to>2478774</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1785416960|gb|CP046846.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain F9458 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP046846</Hit_accession>
+  <Hit_len>3168974</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2592533</Hsp_hit-from>
+      <Hsp_hit-to>2592506</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1785416959|gb|CP046820.1|</Hit_id>
+  <Hit_def>Vibrio metoecus strain 2011V-1015 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP046820</Hit_accession>
+  <Hit_len>2920855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>813583</Hsp_hit-from>
+      <Hsp_hit-to>813556</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGAGCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1785416956|gb|CP046817.1|</Hit_id>
+  <Hit_def>Vibrio metoecus strain 06-2478 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP046817</Hit_accession>
+  <Hit_len>2877867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2303790</Hsp_hit-from>
+      <Hsp_hit-to>2303817</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGAGCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1785416950|gb|CP046825.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain 07-2442 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP046825</Hit_accession>
+  <Hit_len>3037849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1727353</Hsp_hit-from>
+      <Hsp_hit-to>1727380</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1785416786|gb|CP046758.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain 2015AW-0208 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP046758</Hit_accession>
+  <Hit_len>3418330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1828655</Hsp_hit-from>
+      <Hsp_hit-to>1828628</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1776325551|gb|CP035682.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain 2011V-1073 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP035682</Hit_accession>
+  <Hit_len>3115368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1860882</Hsp_hit-from>
+      <Hsp_hit-to>1860909</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1776325547|gb|CP035686.1|</Hit_id>
+  <Hit_def>Vibrio metoecus strain 2011V-1169 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP035686</Hit_accession>
+  <Hit_len>2905724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>477227</Hsp_hit-from>
+      <Hsp_hit-to>477254</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGAGCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1776325545|gb|CP035688.1|</Hit_id>
+  <Hit_def>Vibrio metoecus strain 08-2459 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP035688</Hit_accession>
+  <Hit_len>2858907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1932893</Hsp_hit-from>
+      <Hsp_hit-to>1932866</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGAGCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1776325523|gb|CP035784.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain 2009V-1035 chromosome 1</Hit_def>
+  <Hit_accession>CP035784</Hit_accession>
+  <Hit_len>3317415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>965806</Hsp_hit-from>
+      <Hsp_hit-to>965779</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1751004028|gb|CP044069.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain FDAARGOS_663 chromosome 2, complete sequence</Hit_def>
+  <Hit_accession>CP044069</Hit_accession>
+  <Hit_len>3249353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2543652</Hsp_hit-from>
+      <Hsp_hit-to>2543625</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1736642656|gb|CP043557.1|</Hit_id>
+  <Hit_def>Vibrio cholerae strain RFB05 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP043557</Hit_accession>
+  <Hit_len>3162181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1801290</Hsp_hit-from>
+      <Hsp_hit-to>1801317</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGAGCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1375974872|gb|CP017635.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus Env1 chromosome I, complete sequence</Hit_def>
+  <Hit_accession>CP017635</Hit_accession>
+  <Hit_len>3241343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>47638</Hsp_hit-from>
+      <Hsp_hit-to>47665</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1337342613|gb|CP014043.2|</Hit_id>
+  <Hit_def>Vibrio mimicus strain FDAARGOS_112 chromosome 2, complete sequence</Hit_def>
+  <Hit_accession>CP014043</Hit_accession>
+  <Hit_len>3091045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>13550</Hsp_hit-from>
+      <Hsp_hit-to>13523</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1320999299|gb|CP019121.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain FORC_054 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP019121</Hit_accession>
+  <Hit_len>3311092</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2445195</Hsp_hit-from>
+      <Hsp_hit-to>2445168</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1219741010|gb|CP012881.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus NBRC 15645 = ATCC 27562 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP012881</Hit_accession>
+  <Hit_len>3266118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2341297</Hsp_hit-from>
+      <Hsp_hit-to>2341324</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1215212406|gb|CP022353.1|</Hit_id>
+  <Hit_def>Vibrio sp. 2521-89 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP022353</Hit_accession>
+  <Hit_len>3017468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>472177</Hsp_hit-from>
+      <Hsp_hit-to>472204</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACGGTACTTGAACGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1214590979|gb|CP014636.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain CECT 4999 chromosome I, complete sequence</Hit_def>
+  <Hit_accession>CP014636</Hit_accession>
+  <Hit_len>3394464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>879229</Hsp_hit-from>
+      <Hsp_hit-to>879256</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1209347959|gb|CP016321.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain FORC_037 chromosome I, complete sequence</Hit_def>
+  <Hit_accession>CP016321</Hit_accession>
+  <Hit_len>3224939</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>2350042</Hsp_hit-from>
+      <Hsp_hit-to>2350015</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1082310431|gb|CP016383.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain SCCF01 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP016383</Hit_accession>
+  <Hit_len>3213040</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>740625</Hsp_hit-from>
+      <Hsp_hit-to>740652</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|648833925|gb|KJ604712.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain XQ PyrH (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>KJ604712</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|586909431|gb|KF899214.1|</Hit_id>
+  <Hit_def>Vibrio sp. Vi_78a uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>KF899214</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>32</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1890631614|gb|CP060047.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain 2497-87 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP060047</Hit_accession>
+  <Hit_len>3260230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>955434</Hsp_hit-from>
+      <Hsp_hit-to>955407</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|159146677|gb|EU118258.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain SS108C 5C1 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EU118258</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|159146649|gb|EU118244.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain ATCC 43382 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EU118244</Hit_accession>
+  <Hit_len>571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|159146645|gb|EU118242.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain ATCC 33653 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EU118242</Hit_accession>
+  <Hit_len>578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|159146631|gb|EU118235.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain 300 1C1 uridylate kinase (pyrH) gene, partial cds &gt;gi|159146633|gb|EU118236.1| Vibrio vulnificus strain 301 1A1 uridylate kinase (pyrH) gene, partial cds &gt;gi|159146659|gb|EU118249.1| Vibrio vulnificus strain ENV1 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EU118235</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|159146629|gb|EU118234.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain 395R uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EU118234</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCTACTGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|157493166|gb|EF990300.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM606 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990300</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|157493164|gb|EF990299.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM605 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990299</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|157493162|gb|EF990298.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM603 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990298</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|157493160|gb|EF990297.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM601 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990297</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|157493158|gb|EF990296.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM542 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990296</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|157493156|gb|EF990295.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM535 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990295</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|157493154|gb|EF990294.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM532 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990294</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|157493152|gb|EF990293.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM461 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990293</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|157493150|gb|EF990292.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM428 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990292</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|157493148|gb|EF990291.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM343 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990291</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|157493146|gb|EF990290.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM337 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990290</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|157493144|gb|EF990289.1|</Hit_id>
+  <Hit_def>Vibrio mimicus strain VM327 uridylate kinase (pyrH) gene, partial cds</Hit_def>
+  <Hit_accession>EF990289</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.0264252</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GTATTGATCCTACGGTACTTGACCGTAT</Hsp_qseq>
+      <Hsp_hseq>GTATTGATCCAACGGTACTTGACCGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83793497</Statistics_db-num>
+      <Statistics_db-len>274927826</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
