@@ -9,15 +9,32 @@ A repository to analyse data
 
 ## Installation
 
+I recommend using a conda environment:
+
+```shell
+conda create -n shelllock
+```
+
+Then:
+
+```shell
+conda activate shelllock
+```
+
 You can install `shelllock` via [pip]:
 
-    pip install shelllock
+You first need to install pip via:
 
+```shell
+conda install pip
+```
 
+Then you can install the package by being in the shelllock folder:
 
-To install latest development version :
+```shell
 
-    pip install git+https://github.com/NessLfy/shelllock.git
+pip install . 
+```
 
 
 ## Contributing
