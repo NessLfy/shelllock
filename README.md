@@ -1,7 +1,7 @@
 # shelllock
 
-[![License MIT](https://img.shields.io/pypi/l/shelllock.svg?color=green)](https://github.com/NessLfy/shelllock/raw/main/LICENSE)
-[![Python Version](https://img.shields.io/pypi/pyversions/shelllock.svg?color=green)](https://python.org)
+[![License MIT](https://img.shields.io/pypi/l/shelllock.svg?color=green)](https://github.com/NessLfy/shelllock/blob/main/LICENSE)
+
 
 A repository to analyse data
 
