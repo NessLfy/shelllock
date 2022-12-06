@@ -35,6 +35,7 @@ Then you can install the package by being in the shelllock folder:
 
 pip install -e . 
 ```
+Note that the -e is to keep updated with pushes on the code to avoid having to reinstall the package
 
 
 ## Contributing
