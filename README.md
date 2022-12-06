@@ -33,7 +33,7 @@ Then you can install the package by being in the shelllock folder:
 
 ```shell
 
-pip install . 
+pip install -e . 
 ```
 
 
