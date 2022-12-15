@@ -9,8 +9,6 @@ import re
 import warnings
 warnings.filterwarnings('ignore')
 
-
-
 def excelreader(name,gain,correct):
     
     #initialise varibale
@@ -68,23 +66,15 @@ def excelreader(name,gain,correct):
     elif gain == 100 : 
         df_Fcellfree = pd.DataFrame(df_cellfree.parse(0).values[s:s+1+time_points])
         c = correction[3]
-        
-    # Label first row as  column names
+    
     df_Fcellfree.columns = df_Fcellfree.iloc[0]
-    
+    df_Fcellfree.drop(df_Fcellfree.columns[0],axis=1,inplace = True)
+    df_Fcellfree.drop(index= 0,inplace=True)
+    df_Fcellfree.dropna(axis=0,inplace=True)
+    df_Fcellfree.drop(columns = 'T° 70-50 gfp:495,520',inplace = True)
 
-    # Drop the first row (Which is column names)
-    df_Fcellfree = df_Fcellfree.iloc[1: , :]
     
-    # Drop the First Column ---> Generates "NAN column"
-    df_Fcellfree = df_Fcellfree.iloc[: , 1:] #drop the temperatur column
-    
-    df_Fcellfree = df_Fcellfree.dropna(axis=1) #drop any extras columns generated with NaN values
-    
-    remove = np.asarray(df_Fcellfree.columns)
-
-    df_Fvalues = df_Fcellfree.reset_index().drop([remove[0],remove[1],'index'],axis = 1).astype('float64')
-    
+    df_Fvalues = df_Fcellfree
     
     if correct.upper() == "NO":
         df_Fvalues = df_Fvalues  
@@ -131,7 +121,7 @@ def collapse(data,tripl,control):
     col=[]
     name =[]
     
-    for ch in data.columns[:-1]:
+    for ch in data.columns[1:]:
         col.append(ch)
 
     #if the imput is line then the triplicate are a list of the column name 3 by 3 
@@ -163,7 +153,6 @@ def collapse(data,tripl,control):
         
         #create a list of the repeated number
         b = list(np.array_split(re.findall(r'\d+ ?',str(col)),len(duplicates))[0])
-        
 
         #for each repeating number add the repeating letter 
 
@@ -178,7 +167,7 @@ def collapse(data,tripl,control):
         i = 0 
         j = 0
         name=[]
-        
+
         while i < len(li)/3:
             name.append([li[j],li[j+1],li[j+2]])
             i= i +1
