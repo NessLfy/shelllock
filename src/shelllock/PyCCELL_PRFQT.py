@@ -71,10 +71,9 @@ def excelreader(name,gain,correct):
     df_Fcellfree.drop(df_Fcellfree.columns[0],axis=1,inplace = True)
     df_Fcellfree.drop(index= 0,inplace=True)
     df_Fcellfree.dropna(axis=0,inplace=True)
-    df_Fcellfree.drop(columns = 'T° 70-50 gfp:495,520',inplace = True)
+    df_Fcellfree.drop(columns = [df_Fcellfree.columns[0],df_Fcellfree.columns[1]],inplace = True)
 
-    
-    df_Fvalues = df_Fcellfree
+    df_Fvalues = df_Fcellfree.copy()
     
     if correct.upper() == "NO":
         df_Fvalues = df_Fvalues  
@@ -121,9 +120,8 @@ def collapse(data,tripl,control):
     col=[]
     name =[]
     
-    for ch in data.columns[1:]:
+    for ch in data.columns[:-1]:
         col.append(ch)
-
     #if the imput is line then the triplicate are a list of the column name 3 by 3 
     if tripl == 'line': 
 
@@ -173,7 +171,6 @@ def collapse(data,tripl,control):
             i= i +1
             j = j+3  
             
-        
     else : 
         name = col
         
