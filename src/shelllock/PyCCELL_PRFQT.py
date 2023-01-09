@@ -71,15 +71,13 @@ def excelreader(name,gain,correct):
     df_Fcellfree.drop(df_Fcellfree.columns[0],axis=1,inplace = True)
     df_Fcellfree.drop(index= 0,inplace=True)
     df_Fcellfree.dropna(axis=0,inplace=True)
-    df_Fcellfree.drop(columns = [df_Fcellfree.columns[0],df_Fcellfree.columns[1]],inplace = True)
+    df_Fcellfree.columns = df_Fcellfree.iloc[0]
+    df_Fcellfree.drop(df_Fcellfree.index[0],inplace=True)
+    df_Fcellfree.reset_index(inplace=True)
+    df_Fcellfree.drop(columns='index',inplace=True)
 
     df_Fvalues = df_Fcellfree.copy()
-    
-    if correct.upper() == "NO":
-        df_Fvalues = df_Fvalues  
-    else:
-        df_Fvalues = df_Fvalues/c # the calibration to go back to µM 
-    
+       
     time_list = [0]
     n_rows = df_Fvalues.shape[0]
     time = 0
@@ -94,6 +92,11 @@ def excelreader(name,gain,correct):
     
     df_Fvalues['Time'] = df_Tvalues['Time']
     
+    if correct.upper() == "NO":
+        df_Fvalues = df_Fvalues  
+    else:
+        df_Fvalues = df_Fvalues/c # the calibration to go back to µM 
+        
     #return the final table
     
     return (df_Fvalues)
@@ -120,7 +123,7 @@ def collapse(data,tripl,control):
     col=[]
     name =[]
     
-    for ch in data.columns[:-1]:
+    for ch in data.columns[2:]:
         col.append(ch)
     #if the imput is line then the triplicate are a list of the column name 3 by 3 
     if tripl == 'line': 
@@ -137,9 +140,7 @@ def collapse(data,tripl,control):
         duplicates = []
         for char in re.findall('[a-zA-Z]',str(col)):
             '''
-             checking whether the character have a duplicate or not
-             str.count(char) returns the frequency of a char in the str
-             
+             checking whether the character have a duplicate or not             
             '''
             if str(col).count(char) > 1:
                 []
@@ -182,8 +183,9 @@ def collapse(data,tripl,control):
     df_Fbg['mean'] = df_Fbg.mean(axis=1)
     std = []
     for col,i in zip(collapse,range(len(collapse))):
-
-        df_flu = data[col]
+        
+        x = [x for x in col if x in data.columns]
+        df_flu = data[x]
         df_flu['mean'] = df_flu.mean(axis=1)
         std.append(df_flu.std(axis=1))
         df_flu['cor'] = df_flu['mean']-df_Fbg['mean']
