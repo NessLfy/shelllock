@@ -100,7 +100,11 @@ def collapse(data,tripl,control):
                 duplicates.append(char)
         
         #create a list of the repeated number
-        b = list(np.array_split(re.findall(r'\d+ ?',str(col)),len(duplicates))[0])
+        b = []
+
+        for i in re.findall(r'\d+ ?',str(col)):
+            if i not in b:
+                b.append(i)
 
         #for each repeating number add the repeating letter 
 
