@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import statistics
 import re 
+import warnings 
+
+warnings.filterwarnings("ignore")
 
 def excelreader(path,gain):
     # Open the file
@@ -32,7 +35,7 @@ def excelreader(path,gain):
     if gain == 0:
         df = df.truncate(before = start , after = stop - 1)
     else:
-        df = df.truncate(before = start + (gain*leng) + (gain*3) , after = stop + (gain*leng) + (gain*3))
+        df = df.truncate(before = start + (gain*leng) + (gain*3) , after = stop + (gain*leng) + (gain*3)-1)
     
     #drop the first column (nan)
     
@@ -152,9 +155,10 @@ def collapse(data,tripl,control):
         pos.append(str(name[i]))
     
     df_Fcollapse = data[pos]
-    df_Fcollapse['Time'] = data['Time']
     
     df_Fcollapse[df_Fcollapse<0]=0
+    
+    df_Fcollapse['Time'] = data['Time']
     
     # add the std value to a dataframe to concatenate to the new dataframe
     
@@ -183,9 +187,9 @@ def plot_triplicates(data,sa):
     #plt.show()
 
 
-def main(data,gain,cor,nr,nc,tripl,control,sa):
+def main(data,gain,nr,nc,tripl,control,sa):
     
-    file = excelreader(data,gain,cor)
+    file = excelreader(data,gain)
         
     plot_raw_data(file,nr,nc)
     
@@ -195,9 +199,9 @@ def main(data,gain,cor,nr,nc,tripl,control,sa):
         
     return fileC
 
-def mainf(data,gain,cor,tripl,control):
+def mainf(data,gain,tripl,control):
     
-    file = excelreader(data,gain,cor)
+    file = excelreader(data,gain)
         
     fileC = collapse(file,tripl,control)
     
