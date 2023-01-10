@@ -6,101 +6,47 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import statistics
 import re 
-import warnings
-warnings.filterwarnings('ignore')
 
-def excelreader(name,gain,correct):
+def excelreader(path,gain):
+    # Open the file
+    df = pd.read_excel(path)
     
-    #initialise varibale
+    # find where there is data
     
-    time_points = 0 
-    time_interval = 0
-    
-    #open the file 
-    
-    df_cellfree = pd.ExcelFile(name)
-    
-    
-    # find the machine name to know where data start 
-    
-    test = pd.DataFrame(df_cellfree.parse(0))
+    start = 0
+    stop = 0
 
-    if re.search('Synergy',str(test.iloc[7,1])) == None :
-        
-        #s = 64
-        s = 45
-        
-        #correction = [3720.7,39499,47364,192405]
-        correction = [186,2100,3410,283567]
+    for l,i in enumerate(df[df.columns[1]]):
+        if i == 'Time':
+            start = l
+        elif start != 0:
+            if str(i) == 'nan':
+                stop = l
+        if start and stop != 0:
+            break
 
-    else: 
-        s = 67
-        
-        #correction = [5929.3,57884,73091,283567]
-        correction = [186,2100,3410,283567]
-        
-        
-        
-    #find the number of time points
+    leng = stop - start
     
-    if s == 67:
-        
-        time_points = int(re.findall(r'\d+',test.iloc[17,1])[-1])
-        time_interval = int(re.findall(r'\d+',test.iloc[17,1])[-3])
-
-    else : 
-        time_points = int(re.findall(r'\d+',test.iloc[15,1])[-1])
-        time_interval = int(re.findall(r'\d+',test.iloc[15,1])[-3])
-        
-    # "crop" the table depending on the gain set 
+    #truncate the dataframe
     
-    if gain == 50 :
-        df_Fcellfree = pd.DataFrame(df_cellfree.parse(0).values[s+12+(3*time_points):s+13+(4*time_points)])
-        c = correction[0]
-    elif gain == 70 : 
-        df_Fcellfree = pd.DataFrame(df_cellfree.parse(0).values[s+8+(2*time_points):s+9+(3*time_points)])
-        c = correction[1]
-    elif gain == 75 : 
-        df_Fcellfree = pd.DataFrame(df_cellfree.parse(0).values[s+4+time_points:s+5+(2*time_points)])
-        c = correction[2]
-    elif gain == 100 : 
-        df_Fcellfree = pd.DataFrame(df_cellfree.parse(0).values[s:s+1+time_points])
-        c = correction[3]
-    
-    df_Fcellfree.columns = df_Fcellfree.iloc[0]
-    df_Fcellfree.drop(df_Fcellfree.columns[0],axis=1,inplace = True)
-    df_Fcellfree.drop(index= 0,inplace=True)
-    df_Fcellfree.dropna(axis=0,inplace=True)
-    df_Fcellfree.columns = df_Fcellfree.iloc[0]
-    df_Fcellfree.drop(df_Fcellfree.index[0],inplace=True)
-    df_Fcellfree.reset_index(inplace=True)
-    df_Fcellfree.drop(columns='index',inplace=True)
-
-    df_Fvalues = df_Fcellfree.copy()
-       
-    time_list = [0]
-    n_rows = df_Fvalues.shape[0]
-    time = 0
-    
-    #create a column with the time
-    
-    for i in range(n_rows):
-        time += time_interval
-        time_list.append(time)
-
-    df_Tvalues = pd.DataFrame([time_list]).transpose().rename(columns={0:'Time'})
-    
-    df_Fvalues['Time'] = df_Tvalues['Time']
-    
-    if correct.upper() == "NO":
-        df_Fvalues = df_Fvalues  
+    if gain == 0:
+        df = df.truncate(before = start , after = stop - 1)
     else:
-        df_Fvalues = df_Fvalues/c # the calibration to go back to µM 
-        
-    #return the final table
+        df = df.truncate(before = start + (gain*leng) + (gain*3) , after = stop + (gain*leng) + (gain*3))
     
-    return (df_Fvalues)
-
+    #drop the first column (nan)
+    
+    df.drop(columns=df.columns[0], axis=1,  inplace=True)
+    
+    # make the first row as header
+    
+    df.columns = df.iloc[0]
+    df = df[1:]
+    
+    df.reset_index(inplace=True)
+    df.drop(columns=df.columns[0], axis=1,  inplace=True)
+    
+    return df
 
 def plot_raw_data(data,nr,nc):
     fig,axs = plt.subplots(nr, nc, sharex = True, sharey = True,figsize=(30, 30))
